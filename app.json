@@ -1,16 +1,11 @@
 {
   "expo": {
-    "name": "refapp",
+    "name": "People care",
     "slug": "refapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo_bg_removed.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.prynsh7.refapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d918c58-ac3d-4133-b0f0-c420fa4f7a43"
+      }
     }
   }
 }
